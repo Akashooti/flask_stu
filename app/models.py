@@ -1,4 +1,4 @@
-from app import db
+from app.app import db
 from passlib.hash import bcrypt
 
 class User(db.Model):
