@@ -3,3 +3,4 @@ Flask-SQLAlchemy==2.5.1
 Flask-Migrate==3.1.0
 Flask-Mail==0.9.1
 passlib==1.7.4
+gunicorn==22.0.0
