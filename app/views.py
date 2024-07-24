@@ -1,5 +1,5 @@
 from flask import render_template, request, redirect, session, flash, jsonify
-from app.app import app, db, mail
+from app import app, db, mail
 from app.models import User
 from flask_mail import Message
 import random
